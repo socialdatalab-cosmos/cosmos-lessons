@@ -21,7 +21,7 @@ After installing and setting up the COSMOS Desktop, here we will authorising you
 3. Then, click the *'Sign in with Twitter'* button on the pop-up window. 
 4. Fill the form with your Twitter username and password and click the *'Authorize app'* button. If you do not have Twitter account, you can sign up for Twitter clicking the *'Sign up for Twitter'* on the top right corner of the page.
 5. After seeing the login was successfull message, you will see the Twitter Collector pop-up window that means COSMOS is ready to make collection.
-![Parse Options](../fig/Twitter_Collector.png)
+![Parse Options](../fig/Twitter_Collector.png){:height="500px" width="550px"}
 
 {% include links.md %}
 

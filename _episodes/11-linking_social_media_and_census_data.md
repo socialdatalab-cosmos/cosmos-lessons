@@ -1,13 +1,11 @@
 ---
-title: "Introduction to Twitter Data and COSMOS."
+title: "Linking social media and Census data"
 teaching: 10
 exercises: 5
 questions:
-- "What is Twitter data?"
-- "What is COSMOS?"
+- "How do we collect data from Twitter"
 objectives:
-- "Understanding social media data."
-- "Understanding how we can benefit from COSMOS for our research."
+- "Understanding the data collection process. "
 keypoints:
 - "this is answe one"
 - "this is answer two"

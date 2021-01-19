@@ -1,13 +1,11 @@
 ---
-title: "Introduction to Twitter Data and COSMOS."
+title: "Importing pre-existing data"
 teaching: 10
 exercises: 5
 questions:
-- "What is Twitter data?"
-- "What is COSMOS?"
+- "How can we use pre-existing data on COSMOS?"
 objectives:
-- "Understanding social media data."
-- "Understanding how we can benefit from COSMOS for our research."
+- "Understanding social media data "
 keypoints:
 - "this is answe one"
 - "this is answer two"

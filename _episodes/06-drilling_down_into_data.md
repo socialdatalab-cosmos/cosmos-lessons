@@ -1,5 +1,5 @@
 ---
-title: "Data collection screen"
+title: "Drilling down into data"
 teaching: 10
 exercises: 5
 questions:
