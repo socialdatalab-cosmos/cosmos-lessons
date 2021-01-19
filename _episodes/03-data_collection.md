@@ -56,7 +56,8 @@ Once COSMOS is launched in your browser, click the plus button on the top left c
 ***  
 #### You can also watch youtube video clicking the image below for all data collection process with COSMOS.
 ***
-[![Data Collection](http://img.youtube.com/vi/FfkSW46scLM/0.jpg)](http://www.youtube.com/watch?v=FfkSW46scLM "Data Collection")
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FfkSW46scLM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > ## Exercise
 > Collect `10000` english tweets using ``, `` keywords, for ``, `` Twitter accounts using COSMOS 2.0
