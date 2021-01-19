@@ -40,7 +40,7 @@ Once COSMOS is launched in your browser, click the plus button on the top left c
 >
 > **When collection has been stopped**, clicking the three dots on the show panel: 
 > * **Query:** You can filter your collected data based on `tweets sentiment`, `date`, `gender`, `language` and `country`.
-![Parse Options](../fig/Query.png){:height="400px" width="400px"}
+![Parse Options](../fig/query.png){:height="400px" width="400px"}
 > When you query the dataset, it creates another subset data based on the query details.
 > * **Export Data Details**
 > * **Export collected data set**
