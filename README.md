@@ -22,11 +22,9 @@ Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%
 
 ## Maintainer(s)
 
-Current maintainers of this lesson are 
+Current maintainer of this lesson is:
 
-* FIXME
-* FIXME
-* FIXME
+* Serenay Ozalp
 
 
 ## Authors
