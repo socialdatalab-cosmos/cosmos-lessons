@@ -18,9 +18,9 @@ keypoints:
 Twitter data is bla bla. Hard to collect etc. Cosmos aims to help with that. 
 
 ## Before We Start
-- setup cosmos
-- assign relevant reading, data collection, 
-- ethics of twitter data
+- setup COSMOS
+- assign relevant reading, data collection 
+- ethics of Twitter data
 - citation for cosmos etc.
 
 # Introduction to Cosmos

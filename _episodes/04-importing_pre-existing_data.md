@@ -1,66 +1,36 @@
 ---
 title: "Importing pre-existing data"
-teaching: 10
+teaching: 5
 exercises: 5
 questions:
 - "How can we use pre-existing data on COSMOS?"
 objectives:
-- "Understanding social media data "
+- "Able to use pre-exististing Twitter data on COSMOS."
 keypoints:
-- "this is answe one"
-- "this is answer two"
-- "etc"
+- "COSMOS does not only use for data collection but also it can be used for pre-exist Twitter data."
+- "COSMOS can only use CSV and JSON data formats."
 ---
 
-## Motivation
-Twitter data is bla bla. Hard to collect etc. Cosmos aims to help with that. 
+# Lesson
+***
+After setting up COSMOS on your machine, you can start the software as it is instructed. 
 
-## Before We Start
-- setup cosmos
-- assign relevant reading, data collection, 
-- ethics of twitter data
-- citation for cosmos etc.
+Once COSMOS is launched in your browser, click the plus button on the top left corner. There are options `Import Data`, `Import RSS Feed`, `Start Twitter Collection`, and `Import Classifier`. We will import pre-existing data on COSMOS:
+1. Click `Import Data`.
+2. Then, you can `drag and drop` or `browse` your single file.
+3. Name the dataset and write some explanation by filling the form on the popup window.
+![Import pre-exist Data](../fig/Import-pre-existing-data.png){:height="250px" width="500px"}
+4. After filling the form and selecting the file, just hit the `import` button.
+5. The imported data set appears on the `Show Panel` and it is ready to use.
+![Imported Data](../fig/imported-data.png){:height="250px" width="400px"}
 
-# Introduction to Cosmos
-
-bla bla
-
-
-**Basic Layout**
-
-bla bla
-
-Content is the king
-```
-sudo ls -l
-```
-
-{% include links.md %}
-
-## Work flow within COSMOS 2.0
-content content content
-
-> ## Tip: hidden objects
+> ## Tip: 
 >
-> Like in the shell, `ls` will hide any variables or functions starting
-> with a "." by default. To list all objects, type `ls(all.names=TRUE)`
-> instead
+> Only CSV and JSON files are accepted for Twitter data.
 >
 {: .callout}
 
-
-> ## Challenge 1
+> ## Exercise
+> 1. Import and name any pre-existing data on COSMOS following the same steps.
 >
-> Which of the following data collection methods are supported with COSMOS 2.0?
-> - data from 1999
-> - stream data
-> - future data
->
-> > ## Solution to challenge 1
-> >
-> > The following data collection methods can be used with cosmos 2.0:
-> > - The answer is stream data
-> > - the reason for this data collection method is content content content
-> {: .solution}
 {: .challenge}
-

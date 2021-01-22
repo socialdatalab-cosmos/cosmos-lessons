@@ -3,42 +3,24 @@ title: "Visualizations"
 teaching: 10
 exercises: 5
 questions:
-- "How do we collect data from Twitter"
+- "How do we visualize data collection on COSMOS?"
 objectives:
-- "Understanding the data collection process. "
+- "Understanding visualization process on COSMOS."
 keypoints:
 - "this is answe one"
 - "this is answer two"
 - "etc"
 ---
 
-## Motivation
-Twitter data is bla bla. Hard to collect etc. Cosmos aims to help with that. 
+# Lesson
+***
 
-## Before We Start
-- setup cosmos
-- assign relevant reading, data collection, 
-- ethics of twitter data
-- citation for cosmos etc.
+Once the enough data has been collected or imported using COSMOS, it is time to visualize the data to obtain details and information we are looking for. To start visualization:
 
-# Introduction to Cosmos
-
-bla bla
+1. `Drag and drop` the data collection to the `workspace`
+2. 
 
 
-**Basic Layout**
-
-bla bla
-
-Content is the king
-```
-sudo ls -l
-```
-
-{% include links.md %}
-
-## Work flow within COSMOS 2.0
-content content content
 
 > ## Tip: hidden objects
 >
