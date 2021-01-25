@@ -23,9 +23,9 @@ After setting up COSMOS on your machine, you can start the software as it is ins
 Once COSMOS is launched in your browser, click the plus button on the top left corner. There are options `Import Data`, `Import RSS Feed`, `Start Twitter Collection`, and `Import Classifier`. We will start a Twitter collection:
 
 1. Click `Start Twitter Collection`.
-2. Give a appropriate name for the collection on the `Twitter Collection` pop-up window.
+2. Give an appropriate name for the collection on the `Twitter Collection` pop-up window.
 ![Parse Options](../fig/Twitter-collection.png){:height="500px" width="400px"}
-3. You can filter the collection based on `keywords and hashtags`, `language`, `location` and `Twitter accounts`. Also, you can specifiy the maximum numer of tweets for the collection.
+3. You can filter the collection based on `keywords and hashtags`, `language`, `location` and `Twitter accounts`. Also, you can specify the maximum number of tweets for the collection.
 4. When the form is filled, click the submit button. The collection (football) starts and can be seen on the panel.
 ![Parse Options](../fig/collection-start.png){:height="250px" width="500px"}
 

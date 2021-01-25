@@ -5,9 +5,9 @@ exercises: 5
 questions:
 - "How can we use pre-existing data on COSMOS?"
 objectives:
-- "Able to use pre-exististing Twitter data on COSMOS."
+- "Able to use pre-exist Twitter data on COSMOS."
 keypoints:
-- "COSMOS does not only use for data collection but also it can be used for pre-exist Twitter data."
+- "COSMOS can be used for pre-existing data."
 - "COSMOS can only use CSV and JSON data formats."
 ---
 
