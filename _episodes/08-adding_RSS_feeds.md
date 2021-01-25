@@ -49,14 +49,13 @@ Once COSMOS is launched in your browser, click the plus button on the top left c
 > ## Challenge 1
 >
 > Find the RSS Feed URLs for following websites and start the collection using COSMOS:
-> - BBC 
-> - New York Times
+> - BBC Sport
+> - New York Times Home Page
 >
 > > ## Solution to challenge 1
 > >
-> > The RSS Fedds URLS are:
-> > - 
-> > - 
+> > - https://feeds.bbci.co.uk/sport/rss.xml
+> > - https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
 > {: .solution}
 {: .challenge}
 
