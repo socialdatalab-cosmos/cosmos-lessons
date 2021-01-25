@@ -29,7 +29,7 @@ below.
 - A confirmation dialog warns about unverified developer. In the dialog, click on
 *Open* button.
 - As soon as you click *Open* button, a black pop-up window(Terminal) appears on the screen for **COSMOS self-check**. (Checkout the COSMOS self-check section below.)
-![Parse Options](fig/cosmos-self-check.png){:height="300px" width="500px"}
+![Parse Options](fig/Cosmos-self-check.png){:height="300px" width="500px"}
 
  
 **Note:** Later on, you may launch COSMOS the way you normally start applications.
