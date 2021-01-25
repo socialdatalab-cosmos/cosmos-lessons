@@ -51,7 +51,7 @@ below.
     
 **Step 1:** Trying to run MongoDB.
 
-![Parse Options](../fig/Mongo.png){:height="300px" width="500px"}
+>![Parse Options](../fig/Mongo.png){:height="300px" width="500px"}
 
 **Step 2:** Trying to run Java.
 
