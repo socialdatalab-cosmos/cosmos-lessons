@@ -59,7 +59,7 @@ below.
 
 **Step 3:**  Trying to run Network Node Centrality calculator.
 
-![Parse Options](../fig/centrality-mac.png){:height="200px" width="500px"}
+![Mac](../fig/centrality-mac.png){:height="200px" width="500px"}
 
 
 - For each step you will ask whether you saw a  warning. If you did, the self-check will exit and you are presented with a Finder window open in the corresponding folder of the file. In the Finder window, right-click (Control-click) on the file, and from the context menu, select **Open** . See the illustrations below. 
