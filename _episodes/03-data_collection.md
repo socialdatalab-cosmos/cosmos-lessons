@@ -45,7 +45,6 @@ Once COSMOS is launched in your browser, click the plus button on the top left c
 > * **Export Data Details**
 > * **Export collected data set**
 > * **Delete**
-> * **Apply classifier** (if you have one)
 > * **Details of data set such as started date, name of the collection,...**
 >
 >

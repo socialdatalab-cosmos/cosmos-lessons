@@ -12,41 +12,19 @@ keypoints:
 - "etc"
 ---
 
-## Motivation
-Twitter data is bla bla. Hard to collect etc. Cosmos aims to help with that. 
-
-## Before We Start
-- setup cosmos
-- assign relevant reading, data collection, 
-- ethics of twitter data
-- citation for cosmos etc.
-
-# Introduction to Cosmos
-
-bla bla
+# Lesson
+***
+## 1. Frequency Analysis
+- In the frequency view, COSMOS provides 3 frequency analysis on a *daily*, *hourly* and *minutely* basis.
+- You can change the time interval by clicking the continues slider underneath of the each graph.
 
 
-**Basic Layout**
 
-bla bla
 
-Content is the king
-```
-sudo ls -l
-```
+## 2. Network Analysis
 
-{% include links.md %}
 
-## Work flow within COSMOS 2.0
-content content content
 
-> ## Tip: hidden objects
->
-> Like in the shell, `ls` will hide any variables or functions starting
-> with a "." by default. To list all objects, type `ls(all.names=TRUE)`
-> instead
->
-{: .callout}
 
 
 > ## Challenge 1

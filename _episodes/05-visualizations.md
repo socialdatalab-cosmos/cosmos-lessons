@@ -1,7 +1,7 @@
 ---
 title: "Visualizations"
-teaching: 10
-exercises: 5
+teaching: 30
+exercises: 20
 questions:
 - "How do we visualize data collection on COSMOS?"
 objectives:
@@ -64,8 +64,29 @@ For the line chart view you can;
 
 **Add screenshot after fix**
 
+> ## Exercises
+>
+> 1. Create a pie chart representing `negative sentiments`. Then, create and name a subset data set for the group of tweets which has sentiment score is '-3'.
+> 2. Visualize your data collection using `Word Cloud` view showing up to 50 words. Then, create and name a subset including one of the most used word in `Twitter text`.  
+> 3. Create a multi-line chart representing `positive sentiment` and `negative sentiment`.
+{: .challenge}
 
 
+## 3. Drilling down into data
+COSMOS provides many ways to create and visualize subsets regarding research needs.
+
+### 1. Query
+After enough data has been collected, clicking the three dots on the show panel you can filter data collection based on `tweets sentiment`, `date`, `gender`, `language` and `country`.
+![Parse Options](../fig/Query.png){:height="400px" width="400px"}
+
+### 2. Create a subset from the collection
+While the collection continues, clicking the three dots on the show panel, `Snapshot` the collection to create a subset data which has been collected until the snapshot.
+> ![Parse Options](../fig/take-snapshot.png){:height="250px" width="400px"}
+
+### 3. Create a subset from the visualizations
+After creating and naming a subset from any visualization view, you can apply the same visualization steps to the subset data you recently created. It gives the opportunity to examine and compare the data in details. See the video tutorial for this lesson below:
+
+**Video**
 
 
 > ## More on Visualizations
@@ -83,8 +104,9 @@ For the line chart view you can;
 
 > ## Exercises
 >
-> 1. Create a pie chart representing `negative sentiments`. Then, create and name a subset data set for the group of tweets which has sentiment score is '-3'.
-> 2. Visualize your data collection using `Word Cloud` view showing up to 50 words. Then, create and name a subset including one of the most used word in `Twitter text`.  
-> 3. Create a multi-line chart representing `positive sentiment` and `negative sentiment`.
+> 1. Create a subset  
+>
+>
 {: .challenge}
+
 
