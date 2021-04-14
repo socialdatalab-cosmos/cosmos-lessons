@@ -25,7 +25,7 @@ The first release of COSMOS software dates back to 2015. At the Social Data Scie
 
 COSMOS can be used for collecting both real-time Twitter data or importing previously collected datasets. It can collect real-time data via the Twitter filter stream API. In most cases, researchers need to analyse social media data within specific parameters such as gender, language, sentiment, keyword or geographical place.  They do this to understand the changes in these parameters (and correlation with public mood, tension, cohesion, etc.) around a particular topic or trigger event. COSMOS provides filtering and querying features with its new user-friendly interface to meet this need. Its filtering feature can be used for  collecting real-time Twitter data while the querying feature can be useful for creating subsets of interests from the data. For example, a COSMOS user can collect data with the keyword ‘pandemic’ and extract the tweets containing the ‘vaccine’ keyword and positive sentiments within the specific time frame selected.
 
-![cosmos blogpost 1](./fig/cosmos_blogpost_1.png){:height="400px" width="450px"}
+![cosmos blogpost 1](../fig/cosmos_blogpost_1.png){:height="400px" width="450px"}
 												
 
 COSMOS provides data analysis at both individual tweet and corpus level. Currently, the types of analyses COSMOS supports are gender and language detection, sentiment analysis, qualitative overview, geospatial location analysis, keyword analysis, longitudinal tweets frequency analysis, social network analysis. Here are some details for these analysis types:
