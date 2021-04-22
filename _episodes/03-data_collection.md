@@ -34,14 +34,27 @@ Since COSMOS does not show all entities from the raw streamed data, the temp fil
 ## 2) Data Collection Screen
 After setting up COSMOS on your machine, you can start the software as it is instructed. 
 
-Once COSMOS is launched in your browser, click the plus button on the top left corner. There are options `Import Data`, `Import RSS Feed` and `Start Twitter Collection`. You will start a Twitter collection:
-
+Once COSMOS is launched in your browser, click the plus button on the top left corner. There are options `Import Data`, `Import RSS Feed` and `Start Twitter Collection`. You can generate a Twitter collection by filtering or sampling:
+**Filter:**
 1. Click `Start Twitter Collection`.
-2. Give an appropriate name for the collection on the `Twitter Collector` pop-up window.
+2. Choose the collecting type as `Filter`.
+3. Give an appropriate name for the collection on the `Twitter Collector` pop-up window.
 ![Twitter collector](../fig/Twitter_Collector.png){:height="500px" width="500px"}
-3. Start the collection based on filtering criteria: `Keywords and hashtags`, `Language`, `Location`, `Twitter accounts` and `Maximum number of tweets` by filling the form. 
-4. When the form is filled, click the submit button. Once the collection starts, it appears on the show panel.
+
+4. Start the collection based on filtering criteria: `Keywords and hashtags`, `Language`, `Location`, `Twitter accounts` and `Maximum number of tweets` by filling the form.
+5. While you filing `Keywords and hashtags`, `Twitter accounts` and `Language` sections, you should press `Enter` after typing each entry. Once you press `Enter`, it should turn blue. 
+![Twitter collector](../fig/twitter_collector_enter.png){:height="450px" width="550px"}
+6. When the form is filled, click the submit button. Once the collection starts, it appears on the show panel.
 ![Collection start](../fig/collection-start.png){:height="250px" width="500px"}
+
+**Sample:**
+COSMOS can generate a sample dataset. 
+1. Click `Start Twitter Collection`.
+2. Choose the collecting type as `Sample`.
+3. Unlike `Filter` option, you need to have a data collection to sample.
+4. Specify the `Collection name`, `Collection description` and `Maximum number of tweets` click the `Submit` button.
+![Sample data](../fig/sample_data.png){:height="300px" width="500px"}
+5. Once you click, the sample dataset will appears on the showpanel.
 
 > ## 3) More on Collections
 >

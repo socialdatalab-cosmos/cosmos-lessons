@@ -3,11 +3,11 @@ title: "Introduction to Twitter Data and COSMOS"
 teaching: 10
 exercises: 5
 questions:
-- "What is Twitter data?"
-- "What is COSMOS?"
+- "What is COSMOS useful for?"
 objectives:
-- "Understanding Social Media data."
 - "Understanding how we can benefit from COSMOS for our research."
+- "Describe COSMOS's uses."
+- "Locate helpful resources to learn more about COSMOS."
 keypoints:
 - "COSMOS is a compact, powerful and free software to collect and analyse social media data."
 - "It aims to democratise access to social media data for social scientists."
@@ -19,6 +19,9 @@ keypoints:
 - Twitter provides powerful data source even with 280 character limit for social scientists who are trying to understand and explain the ways in which society works. 
 - Accessing and analysing such a powerful and big data source is very complicated and requires high level computational skills.
 - With COSMOS, you can collect, save, analyse and visualize real-time Twitter data easily.
+
+## Features
+- 
 
 
 ## Before We Start
