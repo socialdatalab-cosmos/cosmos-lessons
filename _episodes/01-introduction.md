@@ -9,7 +9,7 @@ objectives:
 - "Describe COSMOS's uses."
 - "Locate helpful resources to learn more about COSMOS."
 keypoints:
-- "COSMOS is a compact, powerful and free software to collect and analyse social media data."
+- "COSMOS is compact, powerful and free software to collect and analyse social media data."
 - "It aims to democratise access to social media data for social scientists."
 
 ---
