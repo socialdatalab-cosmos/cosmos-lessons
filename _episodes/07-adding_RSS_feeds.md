@@ -26,7 +26,7 @@ keypoints:
 <https://www.digitaltrends.com/computing/what-is-an-rss-feed/>
 
 
-Once COSMOS is launched in your browser, click the plus button on the top left corner. There are options `Import Data`, `Import RSS Feed`, `Start Twitter Collection`, and `Import Classifier`. We will import pre-existing data on COSMOS:
+Once COSMOS is launched in your browser, click the plus button on the top left corner. There are options `Import Data`, `Import RSS Feed` and `Start Twitter Collection`. We will import pre-existing data on COSMOS:
 
 1. Click `Import RSS Feed` and the popup window appears on the page.
 ![Imported Data](../fig/RSS-feed.png){:height="200px" width="500px"} 

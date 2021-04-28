@@ -34,7 +34,7 @@ COSMOS provides data analysis at both individual tweet and corpus level. Current
 
 *Language detection:* COSMOS is able to detect the language of tweet text among 52 languages. Language detection analysis can be used when filtering and querying data in COSMOS. It shortens the time of analysis when handling large datasets.
 
-*Sentiment analysis:* Sentiment analysis is a process that helps to determine whether a text is positive, negative or neutral. Social scientists and data analysts get help from sentiment analysis while monitoring public opinion for specific topics or events in social media. Because of that, COSMOS integrates the SentiStrength sentiment analysis tool and provides sentiment scores between -5 and +5 for each tweet text (Javier Conejero, 2014). Also, it enables the querying of Twitter data based on sentiment analysis.  
+*Sentiment analysis:* Sentiment analysis is a process that helps to determine whether a text is positive, negative or neutral. Social scientists and data analysts get help from sentiment analysis while monitoring public opinion for specific topics or events in social media. Because of that, COSMOS integrates the SentiStrength sentiment analysis tool and provides sentiment scores between -5 and +5 for each tweet text (Pete Burnap, 2014). Also, it enables the querying of Twitter data based on sentiment analysis.  
 
 *Qualitative overview:*  COSMOS provides a table view so that users can have an overview of the collection with parameters such as tweet text, gender, sentiment analysis, location, etc.
 

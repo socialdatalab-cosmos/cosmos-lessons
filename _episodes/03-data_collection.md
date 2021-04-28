@@ -22,7 +22,10 @@ keypoints:
 ***
 ## 1) Collection Process
 
-Twitter API allows COSMOS to stream public Tweets from the platform in real-time. COSMOS uses filtered stream endpoints to narrow criteria you defined from the COSMOS interface such as `keywords`, `hashtags`, `account names`, `language`, `place`(See in the *Data Collection Screen* section). Creating a filter is helpful because it prevents you from collecting unwanted tweets for your research.
+Twitter API allows COSMOS to stream public Tweets from the platform in real-time. COSMOS uses filtered stream endpoints to narrow criteria you defined from the COSMOS interface such as `keywords`, `hashtags`, `account names`, `language`, `place`(See in the *Data Collection Screen* section). To get more information about filtering realtime tweets, follow the link below:
+<https://developer.twitter.com/en/docs/twitter-api/v1/tweets/filter-realtime/guides/basic-stream-parameters> 
+
+Creating a filter is helpful because it prevents you from collecting unwanted tweets for your research.
 
 After you start a collection through COSMOS, you will begin receiving a stream of data. All streamig data is saved in JSON format with `/home/COSMOS-files/tmp` path temporarily. For each collection, COSMOS creates a folder which has the same name with the collection in the `tmp` folder. Folder structure:
 
@@ -35,7 +38,10 @@ Since COSMOS does not show all entities from the raw streamed data, the temp fil
 After setting up COSMOS on your machine, you can start the software as it is instructed. 
 
 Once COSMOS is launched in your browser, click the plus button on the top left corner. There are options `Import Data`, `Import RSS Feed` and `Start Twitter Collection`. You can generate a Twitter collection by filtering or sampling:
+
+
 **Filter:**
+COSMOS provides filtering feature to narrow a collection while streaming data from Twitter.
 1. Click `Start Twitter Collection`.
 2. Choose the collecting type as `Filter`.
 3. Give an appropriate name for the collection on the `Twitter Collector` pop-up window.
@@ -43,9 +49,31 @@ Once COSMOS is launched in your browser, click the plus button on the top left c
 
 4. Start the collection based on filtering criteria: `Keywords and hashtags`, `Language`, `Location`, `Twitter accounts` and `Maximum number of tweets` by filling the form.
 5. While you filing `Keywords and hashtags`, `Twitter accounts` and `Language` sections, you should press `Enter` after typing each entry. Once you press `Enter`, it should turn blue. 
+
 ![Twitter collector](../fig/twitter_collector_enter.png){:height="450px" width="550px"}
+
 6. When the form is filled, click the submit button. Once the collection starts, it appears on the show panel.
 ![Collection start](../fig/collection-start.png){:height="250px" width="500px"}
+
+> ## Tip:
+>
+> 1. When you enter multiple keywords or accounts when filtering the collection, Twitter API determines each entries (keywords, hashtags and 
+> accounts) equivalent to logical ORs. For example; 
+> If you start a collection with keywords `covid`, `vaccine` and `coronavirus` and Twitter accounts `@BorisJohnson`, you would get;
+> - tweets posted by Boris Johnson (it does not have to related covid),
+> - tweets contains `covid`, `vaccine` or `coronavirus` keywords. 
+> 2. Unlike keywords, hashtags and twitter account field, for `language` term is considered as logical AND by Twitter API. If we add
+> language filter the example collection above, you will get only english tweets with the keywords or accounts. 
+>
+> You can learn about more <https://developer.twitter.com/en/docs/twitter-api/v1/tweets/filter-realtime/guides/basic-stream-parameters>
+>
+{: .callout}
+
+
+
+
+
+
 
 **Sample:**
 COSMOS can generate a sample dataset. 
@@ -85,8 +113,16 @@ COSMOS can generate a sample dataset.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FfkSW46scLM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+> ## Tip:
+>
+> - Maximum two data collection can be started simultaneously because of rate limits for Twitter API. You can learn more about rate limits
+> <https://developer.twitter.com/en/docs/twitter-api/v1/tweets/filter-realtime/guides/basic-stream-parameters>
+> 
+>
+{: .callout}
+
 > ## Exercise
-> Collect `10000` english tweets using ``, `` keywords, for ``, `` Twitter accounts using COSMOS 2.0
+> Collect `10000` english tweets using ``, `` keywords, for ``,`` Twitter accounts using COSMOS 2.0
 >
 {: .challenge}
 
