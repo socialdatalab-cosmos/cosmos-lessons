@@ -76,13 +76,12 @@ COSMOS provides filtering feature to narrow a collection while streaming data fr
 
 
 **Sample:**
-COSMOS can generate a sample dataset. 
+COSMOS can stream tweets without any filter or specification.
 1. Click `Start Twitter Collection`.
-2. Choose the collecting type as `Sample`.
-3. Unlike `Filter` option, you need to have a data collection to sample.
-4. Specify the `Collection name`, `Collection description` and `Maximum number of tweets` click the `Submit` button.
+2. Choose the collecting type as `Sample`. 
+3. Specify the `Collection name`, `Collection description` and `Maximum number of tweets` click the `Submit` button.
 ![Sample data](../fig/sample_data.png){:height="300px" width="500px"}
-5. Once you click, the sample dataset will appears on the showpanel.
+4. Once you click, the sample dataset will appears on the showpanel.
 
 > ## 3) More on Collections
 >

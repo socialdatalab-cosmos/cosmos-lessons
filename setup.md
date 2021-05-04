@@ -29,7 +29,7 @@ title: Setup COSMOS 2.0
 
 - A confirmation dialog warns about unverified developer. In the dialog, click on
 *Open* button.
-////**ADD SCREENSHOT**
+
 - As soon as you click *Open* button, a black pop-up window (Terminal) appears on the screen for **COSMOS self-check**. (Checkout the COSMOS self-check section below.)
 ![Parse Options](fig/Cosmos-self-check.png){:height="300px" width="500px"}
 
@@ -50,10 +50,10 @@ title: Setup COSMOS 2.0
 #### 3. COSMOS Self-Check:
 - When you start COSMOS for the first time, a self-check is run to ensure that COSMOS runs correctly. 
 - First of all, you need to press 'Enter' to begin the check as you inform on the Terminal window.
-**ADD SCREENSHOT** 
+
 - There are **three** steps in this self-check.
 - For each step you will ask whether you saw a warning. If you did, the self-check will exit and you are presented with a Finder window open in the corresponding folder of the file.
-**ADD SCREENSHOT** 
+
 
 **Step 1:** Trying to run MongoDB. When you see the warning press 'y'. In the Finder window, right-click (Control-click) on the `mongod` file, and from the context menu, select **Open**. 
 
@@ -69,8 +69,12 @@ After clicking **Open** from the context menu, you will receive a similar warnin
 
 ![Mac](fig/centrality-mac.png){:height="200px" width="500px"}
 
+![self check window](fig/selfcheck_steps.png){:height="300px" width="500px"}
+
 
 After completed all steps of self-check, your internet browser will open automatically and COSMOS will run on your machine locally.
+
+![cosmos running](fig/cosmos_running.png){:height="300px" width="650px"}
 
 The self-check is only run the first time you start COSMOS. Once everything is set up correctly and necessary permissions are granted, COSMOS will run directly when you start it.
 
