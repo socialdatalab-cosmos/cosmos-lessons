@@ -4,7 +4,7 @@ teaching: 10
 exercises: 5
 questions:
 - "How do we authorise to collect data from Twitter?"
-- "How is it possible to get the latest version of COSMOS? "
+- "How is it possible to get the latest version of COSMOS?"
 objectives:
 - "Authoritising your Twitter account to use this collection service."
 - "Updating COSMOS latest version before starting using it."
