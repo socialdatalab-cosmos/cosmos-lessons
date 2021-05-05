@@ -38,6 +38,8 @@ keypoints:
 
 You can find out a lot more about COSMOS at <http://socialdatalab.net/COSMOS> and check out intruduction videos. You can fill the form and request install link from the website. When you request COSMOS, you will receive an email from cosmosprojectuk@gmail.com including the download link, bug and feature request forms together. If you need help at some point using COSMOS, you can contact us via this email address. Also, if you want to stay updated for COSMOS development, you can checkout [Blogposts]({{ site.baseurl }}/discuss/index.html) section from the menu.
 
+f
+
 
 
 
