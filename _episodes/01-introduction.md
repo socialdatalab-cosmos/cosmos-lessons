@@ -1,5 +1,5 @@
 ---
-title: "Introduction to COSMOS"
+title: "Introduction to COSMOSSSSssssssssss"
 teaching: 10
 exercises: 5
 questions:
