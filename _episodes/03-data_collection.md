@@ -9,46 +9,46 @@ objectives:
 - "Understanding the data collection process. "
 keypoints:
 - "COSMOS can collect twitter data from Twitter."
-- "COSMOS can filter collection based on a variety of criteria."
-- "COSMOS can create many subset data while the collection continues."
+- "COSMOS can filter collections based on a variety of criteria."
+- "COSMOS can create subsets of the data while the collection continues."
 ---
 
 ## Before We Start
 - Setup COSMOS.
-- Authorising your Twitter account to collect data.
-- Check if there is any update.
+- Authorise your Twitter account to collect data.
+- Check if there is an update.
 
 # Lessons
 ***
 ## 1) Collection Process
 
-Twitter API allows COSMOS to stream public Tweets from the platform in real-time. COSMOS uses filtered stream endpoints to narrow criteria you defined from the COSMOS interface such as `keywords`, `hashtags`, `account names`, `language`, `place`(See in the *Data Collection Screen* section). To get more information about filtering realtime tweets, follow the link below:
+The Twitter API allows COSMOS to stream public Tweets from the platform in real-time. COSMOS uses filtered stream endpoints to narrow criteria you defined from the COSMOS interface such as `keywords`, `hashtags`, `account names`, `language`, `place`(see the *Data Collection Screen* section). To get more information about filtering realtime tweets, follow the link below:
 <https://developer.twitter.com/en/docs/twitter-api/v1/tweets/filter-realtime/guides/basic-stream-parameters> 
 
 Creating a filter is helpful because it prevents you from collecting unwanted tweets for your research.
 
-After you start a collection through COSMOS, you will begin receiving a stream of data. All streamig data is saved in JSON format with `/home/COSMOS-files/tmp` path temporarily. For each collection, COSMOS creates a folder which has the same name with the collection in the `tmp` folder. Folder structure:
+After you start a collection through COSMOS, you will begin receiving a stream of data. All streamig data is saved in JSON format in the `/home/COSMOS-files/tmp` folder temporarily. For each collection, COSMOS creates a folder which has the same name with the collection in the `tmp` folder. Folder structure:
 
 `<%collection_year%>/<%collection_month%>/<%collection_day%>/twitter-collection-<%hour%>.json` 
 ![Folder Structure](../fig/Folder-structure.png){:height="300px" width="600px"}
 
-Since COSMOS does not show all entities from the raw streamed data, the temp files would be beneficial to access these. Later, COSMOS creates a Mongo DB (local database on your machine) and moves the dataset to the database from *'tmp'* folder.
+Since COSMOS does not show all entities from the raw streamed data in it's interface, the temp files could be beneficial if these need to be accessed. Later, COSMOS creates a local database on your machine and moves the dataset to the database from the *'tmp'* folder.
 
 ## 2) Data Collection Screen
-After setting up COSMOS on your machine, you can start the software as it is instructed. 
+After setting up COSMOS on your machine, you can start the software as instructed. 
 
-Once COSMOS is launched in your browser, click the plus button on the top left corner. There are options `Import Data`, `Import RSS Feed` and `Start Twitter Collection`. You can generate a Twitter collection by filtering or sampling:
+Once COSMOS is launched in your browser, click the plus button on the top left corner. You will see the options `Import Data`, `Import RSS Feed` and `Start Twitter Collection`. You can generate a Twitter collection by filtering or sampling:
 
 
 **Filter:**
-COSMOS provides filtering feature to narrow a collection while streaming data from Twitter.
+COSMOS provides a filtering feature to narrow a collection while streaming data from Twitter.
 1. Click `Start Twitter Collection`.
 2. Choose the collecting type as `Filter`.
 3. Give an appropriate name for the collection on the `Twitter Collector` pop-up window.
 ![Twitter collector](../fig/Twitter_Collector.png){:height="500px" width="500px"}
 
 4. Start the collection based on filtering criteria: `Keywords and hashtags`, `Language`, `Location`, `Twitter accounts` and `Maximum number of tweets` by filling the form.
-5. While you filing `Keywords and hashtags`, `Twitter accounts` and `Language` sections, you should press `Enter` after typing each entry. Once you press `Enter`, it should turn blue. 
+5. While filling the `Keywords and hashtags`, `Twitter accounts` and `Language` sections, you should press `Enter` after typing each entry. Once you press `Enter`, it should turn blue. 
 
 ![Twitter collector](../fig/twitter_collector_enter.png){:height="450px" width="550px"}
 
@@ -57,15 +57,14 @@ COSMOS provides filtering feature to narrow a collection while streaming data fr
 
 > ## Tip:
 >
-> 1. When you enter multiple keywords or accounts when filtering the collection, Twitter API determines each entries (keywords, hashtags and 
-> accounts) equivalent to logical ORs. For example; 
-> If you start a collection with keywords `covid`, `vaccine` and `coronavirus` and Twitter accounts `@BorisJohnson`, you would get;
-> - tweets posted by Boris Johnson (it does not have to related covid),
+> 1. When you enter multiple keywords, hashtags or accounts when filtering the collection, the Twitter API determines which results to return using logical OR. For example; 
+> If you start a collection with keywords `covid`, `vaccine` and `coronavirus` and Twitter account `@BorisJohnson`, you would get;
+> - tweets posted by Boris Johnson (they do not have to be related to covid),
 > - tweets contains `covid`, `vaccine` or `coronavirus` keywords. 
-> 2. Unlike keywords, hashtags and twitter account field, for `language` term is considered as logical AND by Twitter API. If we add
-> language filter the example collection above, you will get only english tweets with the keywords or accounts. 
+> 2. Unlike keywords, hashtags and accounts, the `language` search term uses logical AND. If we add an English
+> language filter for the example collection above, you will get only English tweets with the keywords or accounts. 
 >
-> You can learn about more <https://developer.twitter.com/en/docs/twitter-api/v1/tweets/filter-realtime/guides/basic-stream-parameters>
+> You can learn more about this at <https://developer.twitter.com/en/docs/twitter-api/v1/tweets/filter-realtime/guides/basic-stream-parameters>
 >
 {: .callout}
 
@@ -88,18 +87,18 @@ COSMOS can stream tweets without any filter or specification.
 > The collection takes time as it streams tweets in real-time.    
 > **While the collection continues**, clicking the three dots on the show panel:
 > * Stop the collection when enough data has been collected.
-> * **Snapshot** the collection to create a subset data which has been collected until the snapshot.
+> * **Snapshot** the collection to create a subset consisting of data which has been collected until the snapshot.
 > ![Snapshot](../fig/take-snapshot.png){:height="250px" width="400px"}
 > 
 > **When the collection has been stopped**, clicking the three dots on the show panel: 
 ![Collection menu](../fig/collection_menu.png){:height="250px" width="350px"}
 > * **Query:** You can filter your collected data based on `tweets sentiment`, `date`, `gender`, `language` and `country`.
 ![Query](../fig/Query.png){:height="300px" width="400px"}
-> When you query the dataset, it creates another subset data based on the query details. This feature helps to remove noisy data and shorten data analysis process. 
+> When you query the dataset, it creates a subset of the data based on the query details. This feature helps to remove noisy data and shorten the data analysis process. 
 > * **Export Data Details**
-> * **Export collected data:** Exports collected data as a csv file.
+> * **Export collected data:** Exports collected data as a CSV file.
 > * **Delete**
-> * **Details of data set:** Exports dataset's details as a json file such as started date, name of the collection,...
+> * **Details of data set:** Exports the dataset's details as a json file e.g. date started, name of the collection, ...
 >
 >
 >
@@ -107,14 +106,14 @@ COSMOS can stream tweets without any filter or specification.
 
   
 ***  
-#### You can also watch youtube video clicking the image below for all data collection process with COSMOS.
+#### You can also watch a YouTube video for all data collection processes with COSMOS by clicking the image below.
 ***
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FfkSW46scLM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > ## Tip:
 >
-> - Maximum two data collection can be started simultaneously because of rate limits for Twitter API. You can learn more about rate limits
+> - A maximum of two data collections can be started simultaneously because of Twitter API rate limits. You can learn more about rate limits
 > <https://developer.twitter.com/en/docs/twitter-api/v1/tweets/filter-realtime/guides/basic-stream-parameters>
 > 
 >
@@ -134,9 +133,9 @@ COSMOS can stream tweets without any filter or specification.
 > Which COSMOS feature did you use for this purpose? 
 >
 > > ## Solution
-> > 1. Click 3 dots on the panel and select `Snapshot`. After creating a subset click 3 dots and choose `Details` option from dropdown menu, edit the name of the subset and hit the `Update` button.
+> > 1. Click 3 dots on the panel and select `Snapshot`. After creating a subset click 3 dots and choose `Details` option from the dropdown menu, edit the name of the subset and hit the `Update` button.
 > > ![Snapshot](../fig/name-snapshot.png){:height="200px" width="400px"}
-> > 2.  Click 3 dots on the panel and select `Query`. Then, fill the form on the pop-up window choosing sentiment score as a negative number(between -5 to 0) and entering date of last two days and click the `Query` button. After creating a subset, click 3 dots again and choose `Details` option from dropdown menu, edit the name of the subset and hit the `Update` button.
+> > 2.  Click 3 dots on the panel and select `Query`. Then, fill the form on the pop-up window choosing sentiment score as a negative number(between -5 to 0) and entering a date of last two days and click the `Query` button. After creating a subset, click 3 dots again and choose the `Details` option from the dropdown menu, edit the name of the subset and hit the `Update` button.
 > {: .solution}
 {: .challenge}
 
