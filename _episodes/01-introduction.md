@@ -14,7 +14,7 @@ keypoints:
 
 ---
 
-## Motivation yy
+## Motivation aa
 
 - Social media platforms have become very popular to express individuals' opinions, experience and promote ideas on daily basis. 
 - Twitter provides powerful data source even with 280 character limit for social scientists who are trying to understand and explain the ways in which society works. 
