@@ -138,4 +138,3 @@ COSMOS can stream tweets without any filter or specification.
 > > 2.  Click 3 dots on the panel and select `Query`. Then, fill the form on the pop-up window choosing sentiment score as a negative number(between -5 to 0) and entering a date of last two days and click the `Query` button. After creating a subset, click 3 dots again and choose the `Details` option from the dropdown menu, edit the name of the subset and hit the `Update` button.
 > {: .solution}
 {: .challenge}
-
