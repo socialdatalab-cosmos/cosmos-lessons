@@ -104,11 +104,6 @@ COSMOS can stream tweets without any filter or specification.
 >
 {: .callout}
 
-  
-***  
-#### You can also watch a YouTube video for all data collection processes with COSMOS by clicking the image below.
-***
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FfkSW46scLM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > ## Tip:
