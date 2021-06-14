@@ -45,6 +45,11 @@ Once COSMOS is launched in your browser, click the plus button on the top left c
 >
 {: .callout}
 
+***  
+#### You can also watch a YouTube video showing all COSMOS adding RSS feed processes by clicking the image below.
+***
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tdrx_5ICUuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > ## Challenge 1
 >
