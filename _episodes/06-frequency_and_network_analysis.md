@@ -21,6 +21,12 @@ See the example of frquency view below:
 
 ![Frequency view](../fig/Frequency-view.png){:height="400px" width="900px"}
 
+***  
+#### You can also watch youtube video clicking the image below for all frequency process with COSMOS.
+***
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2dFHog_ClBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 2. Network Analysis
 
 COSMOS provides network analysis with Twitter data. It can be currently used to visualize `retweets` and `mentions` network. 
@@ -32,8 +38,10 @@ These network views aim to identify prominent users and their level of influence
 Similar to other views in COSMOS, you can create subset *'Ctrl (Command) + Click'* on multiple nodes to focus on and deeply analyse the network for specific accounts. 
 
 ***  
-#### You can also watch youtube video clicking the image below for all frequency and network analysis and visualization process with COSMOS.
+#### You can also watch youtube video clicking the image below for all network analysis process with COSMOS.
 ***
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xo4M1-nSKCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > ## Exercise
 >
