@@ -39,8 +39,9 @@ After installing and setting up the COSMOS Desktop, here we will authorise your 
 Once you install COSMOS on your computer, you do not need to reinstall COSMOS to receive new updates. Since COSMOS is in active development, we have developed a feature to enable you to get the latest version of COSMOS.  COSMOS automarically checks for updates each time it's started. You can also click on the menu button on the top right corner of the page and click on the *'Check for updates'* option. 
 ![Check for updates](../fig/Check_for_updates.png){:height="300px" width="600px"}
 
-If there is a new version, click on the 'yes' option so you can upgrade to the latest version of the COSMOS. To use the latest version, you need to restart the COSMOS application.  
-**ADD SCREENSHOT**
+If there is a new version, click on the 'yes' option so you can upgrade to the latest version of the COSMOS. To use the latest version, you need to restart the COSMOS application. 
+ 
+![Check for updates2](../fig/update_cosmos_pop-up.png){:height="300px" width="600px"}
 
 ***  
 #### You can also watch a YouTube video showing all COSMOS authorising processes by clicking the image below.
