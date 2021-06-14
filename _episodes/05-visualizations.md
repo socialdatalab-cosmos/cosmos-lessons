@@ -113,7 +113,7 @@ After creating and naming a subset from any visualization view, you can apply th
 > 
 > let's say we created one table view and on pie chart view. When we click on one of the pie chart slices (female one), it highlights 
 > female tweets on the Table view.
->![Selected data](../fig/Select-data.png){:height="400px" width="800px"}
+>![Selected data](../fig/Select-data.png){:height="400px" width="1000px"}
 >
 {: .callout}
 
