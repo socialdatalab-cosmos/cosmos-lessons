@@ -99,7 +99,7 @@ After enough data has been collected, clicking the three dots on the show panel 
 
 ### 2. Create a subset from the collection
 While the collection continues, clicking the three dots on the show panel, `Snapshot` the collection to create a subset data which has been collected until the snapshot.
-> ![Parse Options](../fig/take-snapshot.png){:height="250px" width="400px"}
+> ![Parse Options](../fig/take-snapshot.png){:height="200px" width="400px"}
 
 ### 3. Create a subset from the visualizations
 After creating and naming a subset from any visualization view, you can apply the same visualization steps to the subset data you recently created. It allows examining and comparing the data in details. See the video tutorial for this lesson below:
@@ -113,7 +113,7 @@ After creating and naming a subset from any visualization view, you can apply th
 > 
 > let's say we created one table view and on pie chart view. When we click on one of the pie chart slices (female one), it highlights 
 > female tweets on the Table view.
->![Selected data](../fig/Select-data.png){:height="400px" width="1000px"}
+>![Selected data](../fig/Select-data.png){:height="400px" width="800px"}
 >
 {: .callout}
 
