@@ -76,11 +76,11 @@ For the line chart view you can;
 - specify the y-axis of the line chart base on the metadata.
 - create multi-line charts to represent and compare more than one series in the dataset. 
 
-**Should I add screenshot of line chart they are not looking nice???????**
-
 ***  
 #### You can also watch youtube video clicking the image below for all data visualization process with COSMOS.
 ***
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eho0TnYdsos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > ## Exercises
 >
@@ -99,12 +99,11 @@ After enough data has been collected, clicking the three dots on the show panel 
 
 ### 2. Create a subset from the collection
 While the collection continues, clicking the three dots on the show panel, `Snapshot` the collection to create a subset data which has been collected until the snapshot.
-> ![Parse Options](../fig/take-snapshot.png){:height="250px" width="400px"}
+> ![Parse Options](../fig/take-snapshot.png){:height="200px" width="400px"}
 
 ### 3. Create a subset from the visualizations
 After creating and naming a subset from any visualization view, you can apply the same visualization steps to the subset data you recently created. It allows examining and comparing the data in details. See the video tutorial for this lesson below:
 
-VIDEOOOOOOOO!!!!!
 
 > ## More on Visualizations
 >
@@ -130,6 +129,8 @@ VIDEOOOOOOOO!!!!!
 ***  
 #### You can also watch youtube video clicking the image below for all data analysing process with COSMOS.
 ***
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IRWQeeYj-EI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > ## Exercises
 >

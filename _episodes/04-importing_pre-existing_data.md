@@ -31,6 +31,12 @@ Once COSMOS is launched in your browser, click the plus button on the top left c
 > 'Language_code', 'Timestamp', 'Longitude', 'Tweeet_text', 'Tweet_id', 'Screen_name', 'Latitude'.
 {: .callout}
 
+***  
+#### You can also watch a YouTube video showing all COSMOS importing pre-existing data processes by clicking the image below.
+***
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M8uRjpzN77U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 > ## Exercise
 > 1. Import and name any pre-existing data on COSMOS following the same steps. 
 >
